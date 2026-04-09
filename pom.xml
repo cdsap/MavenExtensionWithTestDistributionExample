@@ -45,7 +45,8 @@
                             <remoteExecutionPreferred>true</remoteExecutionPreferred>
                             <waitTimeoutInSeconds>120</waitTimeoutInSeconds>
                             <requirements>
-                                <requirement>jdk=17</requirement>
+                                <requirement>jdk=21</requirement>
+                                <requirement>os=linux</requirement>
                             </requirements>
                         </distribution>
                     </properties>
