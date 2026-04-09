@@ -19,4 +19,6 @@ jobs:
           distribution: 'temurin'
 
       - name: Build and test
+        env:
+          DEVELOCITY_ACCESS_KEY: ${{ secrets.DEVELOCITY_ACCESS_KEY }}
         run: mvn clean test
